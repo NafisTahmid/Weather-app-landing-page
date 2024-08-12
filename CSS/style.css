@@ -1,0 +1,226 @@
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.hero-section-bg {
+    background-image: url("../Images/bg.png");
+    position:  relative;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: 700px 100px; */
+}
+
+.header-section {
+    color: #FFF;
+    height: 100%;
+    height: 120vh;
+}
+
+.navbar-section {
+    padding: 35px 0px;
+    margin: 0;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.navbar-section h4 {
+    margin-top: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.menu-links ul {
+    list-style:none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-links ul li {
+    display: inline-block;
+    margin: 15px auto;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.menu-links ul li a {
+    text-decoration: none;
+    color: #e1e1e1;
+}
+
+.menu-links li:hover a {
+    color: #FFF;
+}
+
+.menu-icons {
+    margin-left: 70px;
+}
+
+.menu-icons a {
+    color: #FFF;
+    padding: 0 18px;
+    font-size: 29px;
+}
+
+.hero-main-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.promo-text {
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    margin-top: -17px;
+}
+
+.promo-title {
+    width: 57%;
+}
+
+.promo-title h1 {
+    font-weight: 700;
+    margin: 0 0 36px 0;
+    font-size: 68px;
+}
+
+.promo-sub-header {
+    width: 38%;
+}
+
+
+.header-buttons a {
+    color: #FFF;
+    text-decoration: none;
+    padding: 0 auto;
+}
+
+.header-buttons {
+    margin-top: 35px;
+}
+
+.header-buttons a.features-button {
+    margin-left: 15px;
+    background-color: #4466c9;
+    width: 130px;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    text-align: center;
+    padding-top: 12px;
+}
+
+.header-buttons a.download-button {
+    background-color: #fc6a42;
+    width: 130px;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    text-align: center;
+    padding-top: 12px;
+}
+
+.hero-images {
+    display: flex;
+    /* margin: 0 auto; */
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.hero-main-images img {
+    display: block;
+    margin-top: 73px;
+    margin-left: 100px;
+    width: 250px;
+}
+
+.hero-relative-images {
+    position: relative;
+}
+
+.hero-side-images-1 {
+    position: absolute;
+    background-color: #4466c9;
+    width: 90px;
+    height: 90px;
+    margin-top: -16px;
+    border-radius: 50%;
+    margin-left: 34px;
+}
+
+.hero-side-images-1::after {
+    position: absolute;
+    content: "London";
+    z-index: 10;
+    top: 37%;
+    left: 16%;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.hero-side-images-2 {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    background-color: #fc6a42;
+    border-radius: 50%;
+    margin-left: -381px;
+    margin-top: 23px;
+    /* z-index: 10; */
+}
+
+.hero-side-images-2::after {
+    content: "SUNNY";
+    position: absolute;
+    top: 37%;
+    left: 18%;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.hero-side-images-3 {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-color: #FFF;
+    border-radius: 50%;
+    margin-top: -186px;
+    margin-left: 11px;
+}
+
+.hero-side-images-3::after {
+    content: "9\00B0";
+    color: #6ca3ff;
+    top: 34%;
+    position: absolute;
+    left: 42%;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.hero-side-images-4 {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-color: #fcec64;
+    border-radius: 50%;
+    margin-top: 269px;
+    margin-left: 10px;
+    /* content: "RIO"; */
+}
+
+.hero-side-images-4::after {
+    position: absolute;
+    content: "RIO";
+    font-weight: 700;
+    font-size: 17px;
+    top: 29%;
+    left: 26%;
+}
