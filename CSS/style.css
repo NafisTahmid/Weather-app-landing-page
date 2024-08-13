@@ -361,3 +361,41 @@ aside.side-bar ul li {
     color: #c2c2c2;
     font-weight: 400;
 }
+
+.screenshot-first-section-side-images {
+    position: relative;
+}
+
+.screenshot-first-section-side-image-1 {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: #fcec64;
+    bottom: 374px;
+    left: 245px;
+}
+
+.screenshot-first-section-side-image-1::after {
+    content: "Cloudy";
+    top: 36%;
+    position: absolute;
+    left: 18%;
+    font-weight: 700;
+    color: #FFF;
+    font-size: 18px;
+}
+
+.screenshot-first-section-side-image-2 {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: #6ca3ff;
+    bottom: 200px;
+    left: -47px;
+}
+
+.screenshot-first-section-side-image-2::after {
+    position: absolute;
+}
