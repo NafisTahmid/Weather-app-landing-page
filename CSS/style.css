@@ -73,6 +73,41 @@ body {
     align-items: center;
 }
 
+.menu-icon {
+    display:none;
+}
+
+
+
+aside.side-bar ul {
+    list-style: none;
+    text-align: left;
+}
+
+aside.side-bar {
+    display:none;
+    flex-direction:column;
+    justify-content:flex-start;
+    align-items:flex-start;
+    position: fixed;
+    background: #fff;
+    height: 70%;
+    width: 25%;
+    text-align: center;
+    padding: 79px 20px 0 0;
+    z-index:999;
+}
+
+.side-bar ul li a {
+    text-decoration: none;
+    color: 648cff;
+    padding-bottom: 15px;
+}
+
+aside.side-bar ul li {
+    margin-bottom: 24px;
+    border-bottom: 0.5px solid #648cff;
+}
 .promo-text {
     position: absolute;
     top: 35%;

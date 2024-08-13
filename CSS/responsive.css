@@ -1,0 +1,35 @@
+@media only screen and (max-width:767px) {
+    .navbar-section {
+        display: none;
+    }
+    .menu-icon {
+        display: block !important;
+    }
+    aside.side-bar {
+        /* display: block; */
+        height: 100%;
+        width: 50%;
+        margin-left: -125px;
+        margin-top: -64px;
+    }
+
+    aside.side-bar ul {
+        width: 100%;
+    }
+
+    aside.side-bar ul li:nth-child(1) {
+        border-bottom: none;
+        margin-left: 300px;
+    }
+
+    .menu-icon {
+        display: block !important;
+        margin-left: 577px;
+        padding-top: 30px;
+    }
+
+    a.menu-icon i {
+        font-size: 33px;
+        color: #FFF;
+    }
+}
