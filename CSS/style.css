@@ -284,19 +284,23 @@ aside.side-bar ul li {
     margin: 90px 0 0 0;
 }
 
+.public-feature-full-icon {
+    margin-bottom: 20px;
+}
+
 .public-features-section-title {
     text-align: center;
     margin-bottom: 55px;
 }
 
-.public-features-section-title .simple-widgets-title h2 {
+.public-features-section-title h2 {
     text-transform: uppercase;
     color: #648cff;
     font-weight: 700;
 }
 
 
-.public-features-section-title .simple-widgets-title p {
+.public-features-section-title  p {
     color: #c2c2c2;
 }
 
@@ -328,7 +332,7 @@ aside.side-bar ul li {
     color: #648cff;
 }
 
-.simple-widgets-title p {
+.simple-widgets-title  p {
     color: #c2c2c2;
     font-weight: 400;
 }
@@ -336,4 +340,24 @@ aside.side-bar ul li {
 .slider-images .item img {
     display: block;
     margin: 0 auto;
+}
+
+.screenshots-title {
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.screenshots-section {
+    margin-top: 100px;
+}
+
+.screenshots-title h2 {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #648cff;
+}
+
+.screenshots-title p {
+    color: #c2c2c2;
+    font-weight: 400;
 }

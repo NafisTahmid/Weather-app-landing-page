@@ -32,4 +32,60 @@
         font-size: 33px;
         color: #FFF;
     }
+
+    .hero-images {
+        display: none;
+    }
+
+    .promo-text {
+        position: absolute;
+        top: 20%;
+        left: 10%;
+        margin-top: 25px;
+        width: 100%;
+        text-align: center;
+        margin-left: 12%;
+    }
+
+    .promo-sub-header {
+        width: 38%;
+        margin-left: 8%;
+        width: 100;
+    }
+
+    .promo-title h1 {
+        font-size: 60px;
+    }
+
+    .header-buttons {
+        margin-top: 40px;
+        margin-left: 9%;
+    }
+
+    .header-section {
+        height: 130vh;
+    }
+
+   
+}
+
+@media only screen and (max-width: 576px) {
+    .menu-icon {
+        display: block !important;
+        margin-left: 460px;
+        padding-top: 50px;
+    }
+
+    .promo-title h1 {
+        font-size: 50px;
+    }
+
+    .header-buttons {
+        margin-top: 40px;
+        margin-left: 3%;
+    }
+
+    .header-section {
+        height: 118vh;
+    }
 }
