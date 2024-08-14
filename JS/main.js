@@ -14,8 +14,9 @@ function hideSidebar() {
 $( document ).ready(function() {
     $('.slider-section').owlCarousel({
         loop:true,
-        margin:10,
+        margin:30,
         nav:true,
+        center:true,
         dots:false
     })
 });
