@@ -14,7 +14,7 @@ body {
 .header-section {
     color: #FFF;
     height: 100%;
-    height: 120vh;
+    height: 143vh;
 }
 
 .navbar-section {
@@ -454,7 +454,7 @@ p.first-section-text {
 
 .secreen-first-section-text-icon {
     position: absolute;
-    content: url(../Images/rain_icon.png);
+    content: url(../Images/cloud_icon.png);
     width: 6%;
     margin-top: -292px;
     height: 92px;
@@ -680,4 +680,456 @@ p.first-section-text {
     margin-left: 167px;
     color: #f4f4f7;
     z-index: -1;
+}
+
+.screenshots-last-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 198px;
+}
+
+.screenshot-last-section-text {
+    margin-top: 43%;
+    margin-bottom: -20%;
+}
+
+.screenshot-last-section-text-area {
+    line-height: 32px;
+}
+
+.screenshot-last-section-text-area h3 {
+    color: #648cff;
+    font-weight: 700;
+    font-size: 50px;
+    width: 109%;
+    margin-bottom: 20px;
+}
+
+.screenshot-last-section-text-area p {
+    width: 60%;
+    color: #353854;
+}
+
+.screenshot-last-section-round-text-images {
+    position: relative;
+}
+
+.screenshot-last-section-round-text-image-1 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #FFF;
+    box-shadow: 2px 0px 3px #c3cfe5;
+    z-index:10;
+}
+
+.screenshot-last-section-round-text-image-1::after {
+    position: absolute;
+    content: "95%";
+    top: 30%;
+    left: 26%;
+    color: #c3cfe5;
+    font-weight: 700;
+}
+
+.screenshot-last-section-round-text-image-2 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #FFF;
+    box-shadow: 2px 0px 3px #c3cfe5;
+    z-index:9;
+    left: 39px;
+}
+
+.screenshot-last-section-round-text-image-2::after {
+    position: absolute;
+    content: "9\00B0";
+    top: 30%;
+    left: 45%;
+    color: #c3cfe5;
+    font-weight: 700;
+}
+
+.screenshot-last-section-round-text-image-3 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #FFF;
+    box-shadow: 2px 0px 3px #c3cfe5;
+    z-index:8;
+    left: 80px;
+}
+
+.screenshot-last-section-round-text-image-3::after {
+    position: absolute;
+    content: "Rainy";
+    top: 30%;
+    left: 17%;
+    color: #c3cfe5;
+    font-weight: 700;
+}
+
+.screenshot-last-section-side-images {
+    position: relative;
+}
+
+.screenshot-last-section-side-image-1 {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: #b8faee;
+    bottom: 374px;
+    left: 245px;
+}
+
+.screenshot-last-section-side-image-1::after {
+    content: "Rainy";
+    top: 33%;
+    position: absolute;
+    left: 18%;
+    font-weight: 700;
+    color: #FFF;
+    font-size: 22px;
+}
+
+.screenshot-last-section-side-image-2 {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: #7693c8;
+    bottom: 200px;
+    left: -47px;
+}
+
+.screenshot-last-section-side-image-2::after {
+    position: absolute;
+    content: "9\00B0";
+    top: 35%;
+    left: 45%;
+    font-size: 17px;
+    color: #FFF;
+    font-weight: 700;
+    font-size: 22px
+}
+
+.secreen-last-section-text-icon {
+    position: absolute;
+    content: url(../Images/rain_icon.png);
+    width: 6%;
+    margin-top: -292px;
+    height: 92px;
+    margin-left: -9px;
+}
+
+.secreenshot-last-section-text p.last-section-text {
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+    position: absolute;
+    font-size: 208px;
+    margin-top: -582px;
+    margin-left: 167px;
+    color: #f4f4f7;
+    z-index: -1;
+}
+
+.quotes-full-section {
+    margin-top: 198px;
+}
+.quote-title {
+    text-align:center;
+    margin-bottom: 100px;
+}
+.quote-title h2 {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #648cff;
+}
+
+.quote-title p {
+    color: #c2c2c2;
+    font-weight: 400;
+}
+
+.quotes-section {
+    color: #353854;
+    margin-left: 47px;
+}
+
+.quote-1 {
+    width: 74%;
+    line-height: 30px;
+    margin-bottom: 60px;
+}
+
+
+.quote-1-text h6 {
+    line-height: 30px;
+}
+
+.quote-1-by {
+    text-align: left;
+}
+
+.quote-2 {
+    width: 76%;
+    line-height: 30px;
+    margin-bottom: 80px;
+}
+
+.quote-2-text h6 {
+    line-height: 30px;
+}
+
+.quote-2-by {
+    text-align: left;
+}
+
+.quote-3 {
+    width: 72%;
+    line-height: 30px;
+    margin-bottom: 80px;
+}
+
+.quote-3-text h6 {
+    line-height: 30px;
+}
+
+.quote-3-by {
+    text-align: left;
+}
+
+.quote-4 {
+    width: 77%;
+    line-height: 30px;
+    margin-bottom: 80px;
+}
+
+.quote-4-text h6 {
+    line-height: 30px;
+}
+
+.quote-4-by {
+    text-align: left;
+}
+
+.quote-1-quotations {
+    position: relative;
+}
+
+.quote-1-left-quote {
+    position: absolute;
+    content: url(../Images/quote_left_icon.png);
+    width: 10%;
+    bottom: 103px;
+}
+
+.quote-1-right-quote {
+    position: absolute;
+    content: url(../Images/quote_right_icon.png);
+    width: 10%;
+    right: 12px;
+    bottom: -20px;
+}
+
+.quote-2-quotations {
+    position: relative;
+}
+
+.quote-2-left-quote {
+    position: absolute;
+    content: url(../Images/quote_left_icon.png);
+    width: 10%;
+    bottom: 101px;
+}
+
+
+.quote-2-right-quote {
+    position: absolute;
+    content: url(../Images/quote_right_icon.png);
+    width: 10%;
+    right: 30px;
+    bottom: -21px;
+}
+
+.quote-3-quotations {
+    position: relative;
+}
+
+.quote-3-left-quote {
+    position: absolute;
+    content: url(../Images/quote_left_icon.png);
+    width: 10%;
+    bottom: 98px;
+}
+
+.quote-3-right-quote {
+    position: absolute;
+    content: url(../Images/quote_right_icon.png);
+    width: 10%;
+    right: 0;
+    bottom: -27px;
+}
+
+
+.quote-4-quotations {
+    position: relative;
+}
+
+.quote-4-left-quote {
+    position: absolute;
+    content: url(../Images/quote_left_icon.png);
+    width: 10%;
+    bottom: 98px;
+}
+
+.quote-4-right-quote {
+    position: absolute;
+    content: url(../Images/quote_right_icon.png);
+    width: 10%;
+    right: 34px;
+    bottom: -27px;
+}
+
+
+footer.footer-section {
+    margin-top: 50px;
+}
+
+.footer-first-section-bg {
+    background-image: url(../Images/footer-bg-1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 113px 16px 55px 0px;
+}
+
+.footer-first-section-text-area {
+    margin-left: -294px;
+    width: 61%;
+}
+
+.footer-first-section-title {
+    color: #FFF;
+    text-transform: uppercase;
+    width: 130%;
+}
+
+.footer-first-section-title h4 {
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 28px;
+}
+
+.footer-first-section-text {
+    line-height: 26px;
+}
+
+.footer-first-section-text p {
+    color: #FFF;
+}
+
+.footer-first-section-buttons {
+    margin-top: 20px;
+}
+
+.footer-first-section-button-2 {
+    margin-left: 5px;
+}
+
+.footer-second-section-bg {
+    background-image: url(../Images/footer-bg-2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.footer-second-section-navbar-section {
+    padding-top: 40px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.footer-second-section-navbar-section h4 {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.footer-second-section-navbar-section h4 span:first-child {
+    color: #fc6a42;
+}
+
+.footer-second-section-navbar-section h4 span:last-child {
+    color: #648cff;
+}
+
+.footer-menu-links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-menu-links ul li {
+    display: inline-block;
+    margin-right: 73px;
+    margin: 0 26px 0 0;
+    transition: 0.3s;
+}
+
+.footer-menu-links ul li a {
+    text-decoration: none;
+    color: #b5b5c8;
+}
+
+.footer-menu-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: -20px;
+    width: 112%;
+}
+.footer-menu-links ul li:hover a {
+    color: #FFF;
+}
+
+.footer-menu-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 129px;
+}
+
+.footer-menu-icons a {
+    color: #b5b5c8;
+    margin-left: 45px;
+    font-size: 25px;
+}
+
+.footer-horizontal-line {
+    margin-top: 25px;
+}
+
+.footer-horizontal-line hr {
+    color: #434769;
+    font-weight: 700;
+}
+
+.footer-second-section-last-section {
+    text-align: right;
+    padding-bottom: 23px;
+}
+
+.footer-second-section-last-section p {
+    color: #565b87;
+}
+
+.footer-second-section-last-section span i {
+    color: #565b87;
+    padding-left: 97px;
 }

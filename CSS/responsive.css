@@ -1,3 +1,21 @@
+@media only screen and (min-width:992px) and (max-width:1200px) {
+    .menu-icons {
+        margin-left: 39px;
+    }
+
+    .navbar-section h4 {
+        width: 130%;
+    }
+
+    .header-section {
+        height: 168vh;
+    }
+
+    .hero-side-images-2 {
+        margin-left: -361px;
+    }
+}
+
 @media only screen and (max-width:767px) {
     .navbar-section {
         display: none;
