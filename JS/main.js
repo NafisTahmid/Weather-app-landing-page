@@ -17,6 +17,7 @@ $( document ).ready(function() {
         margin:30,
         nav:true,
         center:true,
-        dots:false
+        dots:false,
+        navText: ['<i class="fa fa-solid fa-arrow-left"></i>','<i class="fa fa-solid fa-arrow-right"></i>']
     })
 });

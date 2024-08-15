@@ -1133,3 +1133,36 @@ footer.footer-section {
     color: #565b87;
     padding-left: 97px;
 }
+
+.slider-section .owl-item.active.center img {
+    width: 120%;
+    z-index: 99999999999;
+    position: absolute;
+    left: -10%;
+    top: -138px;
+    padding: 46px 10px;
+    margin: 50px 10px;
+}
+
+.slider-section .owl-carousel {
+    margin: 40px;
+}
+
+.owl-theme.owl-nav {
+    position: relative;
+}
+button.owl-next {
+    position: absolute;
+    right: -90px;
+    bottom: 380px;
+}
+
+button.owl-next i.fa {
+    font-size: 70px;
+    color: #c3cfe5;
+}
+
+button.owl-prev {
+    position: absolute;
+    bottom: 386px;
+}
